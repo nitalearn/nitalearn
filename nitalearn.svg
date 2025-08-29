@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" fill="none" role="img" aria-label="NITA LEARN neon text">
+  <defs>
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0156863  0 0 0 0 0.317647  0 0 0 0 1  0 0 0 1 0" in="blur1" result="blue1"/>
+      <feGaussianBlur in="blue1" stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blue1"/>
+        <feMergeNode in="blur2"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="neonGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6EE7FF"/>
+      <stop offset="55%" stop-color="#1F51FF"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#neonGlow)">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="96" font-weight="900" fill="#04D9FF" letter-spacing="2">
+      NITA LEARN
+    </text>
+  </g>
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="96" font-weight="900" fill="url(#neonGradient)" letter-spacing="2">
+    NITA LEARN
+  </text>
+</svg>
