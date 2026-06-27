@@ -5,7 +5,7 @@
 
 <div align='center'>
     <h1>
-    <a href='https://instagram.com/nima.tahmasbii'>NITA LEARN</a>
+    <a href='https://instagram.com/nima.tahmasbii'>Amir hamzeh Tahmasbi</a>
   </h1>
   <h4>This is Amir Hmazeh Tahmasbi! A Junior Frontend Programmer</h4>
 </div>
