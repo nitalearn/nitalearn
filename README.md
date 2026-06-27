@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src='./photo.jpg' width='250px'/>
+  <!-- <img src='./photo.jpg' width='250px'/> -->
 <!--   <img src='./nitalearn.svg' alt='nitalearn' width='240px' height='240px'/> -->
 </div>
 
